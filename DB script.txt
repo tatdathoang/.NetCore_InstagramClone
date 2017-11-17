@@ -1,0 +1,54 @@
+create database InstagramClone
+go
+use InstagramClone
+go
+
+create table users
+(
+id int not null,
+username varchar(20) not null,
+email varchar(40) not null,
+password varchar(20) not null,
+profilePicture varchar(255),
+primary key (id)
+);
+
+create table posts
+(
+id int not null,
+image varchar(255) not null,
+caption varchar(500) not null,
+datPosted date not null,
+likeCount int,
+commentCount int,
+userID int not null,
+primary key (id),
+FOREIGN KEY (userID) REFERENCES users(id)
+);
+
+create table likes
+(
+id int not null,
+postID int not null,
+userID int not null,
+primary key (id),
+FOREIGN KEY (postID) REFERENCES posts(id),
+FOREIGN KEY (userID) REFERENCES users(id)
+);
+
+create table comments
+(
+id int not null,
+postID int not null,
+userID int not null,
+dateCommented date not null,
+content varchar(500) not null,
+primary key (id),
+FOREIGN KEY (postID) REFERENCES posts(id),
+FOREIGN KEY (userID) REFERENCES users(id)
+);
+
+
+
+
+
