@@ -46,13 +46,13 @@ Sarah Martinelli Benedetti - 7636905
 
                             <form action="" id="form" data-location="login" data-formtype="join">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    <input asp-for="email" class="form-control" id="email" placeholder="Email" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                                    <input asp-for="password" class="form-control" id="password" placeholder="Password" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" id="repeat_password" placeholder="Repeat Password">
+                                    <input asp-for="password" class="form-control" id="repeat_password" placeholder="Repeat Password">
                                 </div>
                                 <button class="btn btn-blue" onclick="handleLoginAttempt()">Submit</button>
 
