@@ -1,4 +1,5 @@
 ﻿@model InstagramClone.Models.Users;
+
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -7,20 +8,15 @@
 
 
 <!doctype html>
-<!--
-Group member:
-Hoang Huu Tat Dat - 7287975
-Sarah Martinelli Benedetti - 7636905
-/-->
+
 <html lang="en" ng-app>
 <head>
     <title>Instagram Clone_Dat Hoang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css?v2">
-    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="~/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/login.css">
 
 </head>
 <body onload="" class="clearfix">
@@ -31,34 +27,34 @@ Sarah Martinelli Benedetti - 7636905
                     <div class="col-md-7 hidden-sm hidden-xs">
                         <div class="row">
                             <div class="animation ">
-                                <img src="./img/login/final-animation.gif" alt="screen animation" class="animation-gif img-responsive"></img>
-                                <img src="./img/login/celphone.png" alt="Iphones" class="img-responsive">
+                                <img src="~/images/img/login/final-animation.gif" alt="screen animation" class="animation-gif img-responsive">
+                                <img src="~/images/img/login/celphone.png" alt="Iphones" class="img-responsive"  runat="server">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="login-container clearfix">
                             <a href="/" class="logolink">
-                                <img src="./img/logotext.svg" class="logotext" width="150">
+                                <img src="~/images/img/logotext.svg" class="logotext" width="150">
                             </a>
-                            <p class="text-center description-page">Welcome to instagram clone!<br>Please insert your data to login:</p>
+                            <p class="text-center description-page">Welcome to Instagram clone!<br>Please insert your data to login:</p>
                             <div class="bg-danger">
                                 <p id="error"></p>
                             </div>
 
                             <form action="" id="form" data-location="posts" data-formtype="login">
                                 <div class="form-group">
-                                    <input asp-for="email" class="form-control" id="email" placeholder="Email">
+                                    <input asp-for="Email" class="form-control" id="email" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input asp-for="password" class="form-control" id="password" placeholder="Password">
+                                    <input asp-for="Password" class="form-control" id="password" placeholder="Password">
                                 </div>
                                 <button class="btn btn-blue" onclick="handleLoginAttempt()">Submit</button>
                                 <hr>
                                 <a class="btn btn-default" href="passwordreset">Forgot password</a>
                             </form>
                         </div>
-                        <a href="/" class="login-container col-md-12 pull-left">Don't have account? Join here.</a>
+                        <a href="signin" class="login-container col-md-12 pull-left">Don't have account? Join here.</a>
                     </div>
                 </div>
             </div>

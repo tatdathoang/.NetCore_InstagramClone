@@ -9,3 +9,14 @@ C:\Users\Dat Hoang\Desktop\Instagram Clone\InstagramClone\obj\Debug\netcoreapp2.
 C:\Users\Dat Hoang\Desktop\Instagram Clone\InstagramClone\bin\Debug\netcoreapp2.0\InstagramClone.pdb
 C:\Users\Dat Hoang\Desktop\Instagram Clone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.dll
 C:\Users\Dat Hoang\Desktop\Instagram Clone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.pdb
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\bin\Debug\netcoreapp2.0\InstagramClone.deps.json
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\bin\Debug\netcoreapp2.0\InstagramClone.runtimeconfig.json
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\bin\Debug\netcoreapp2.0\InstagramClone.runtimeconfig.dev.json
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\bin\Debug\netcoreapp2.0\InstagramClone.dll
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\bin\Debug\netcoreapp2.0\InstagramClone.pdb
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.csprojResolveAssemblyReference.cache
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.csproj.CoreCompileInputs.cache
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.AssemblyInfoInputs.cache
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.AssemblyInfo.cs
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.dll
+C:\Users\Dat Hoang\Desktop\NetCore_InstagramClone\InstagramClone\obj\Debug\netcoreapp2.0\InstagramClone.pdb
