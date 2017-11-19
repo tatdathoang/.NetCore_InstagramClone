@@ -13132,11 +13132,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dat Hoang\\Desktop\\Instagram Clone\\InstagramClone\\InstagramClone.csproj",
+      "projectUniqueName": "C:\\Users\\Dat Hoang\\Desktop\\NetCore_InstagramClone\\InstagramClone\\InstagramClone.csproj",
       "projectName": "InstagramClone",
-      "projectPath": "C:\\Users\\Dat Hoang\\Desktop\\Instagram Clone\\InstagramClone\\InstagramClone.csproj",
+      "projectPath": "C:\\Users\\Dat Hoang\\Desktop\\NetCore_InstagramClone\\InstagramClone\\InstagramClone.csproj",
       "packagesPath": "C:\\Users\\Dat Hoang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dat Hoang\\Desktop\\Instagram Clone\\InstagramClone\\obj\\",
+      "outputPath": "C:\\Users\\Dat Hoang\\Desktop\\NetCore_InstagramClone\\InstagramClone\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
