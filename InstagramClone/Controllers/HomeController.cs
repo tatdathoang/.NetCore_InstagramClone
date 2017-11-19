@@ -34,23 +34,71 @@ namespace InstagramClone.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        [HttpGet]
         public IActionResult login()
         {
             return View();
         }
 
+        [HttpPost]
+        public IActionResult login(Users user)
+        {
+            using (var context = new InstagramCloneContext())
+            {
+                context.Users.Add(user);
+                context.SaveChanges();
+            }
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult passwordreset()
         {
             return View();
         }
 
+        [HttpPost]
+        public IActionResult passwordreset(Users user)
+        {
+            using (var context = new InstagramCloneContext())
+            {
+                context.Users.Add(user);
+                context.SaveChanges();
+            }
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult posts()
         {
             return View();
         }
 
+        [HttpPost]
+        public IActionResult posts(Posts post)
+        {
+            using (var context = new InstagramCloneContext())
+            {
+                context.Posts.Add(post);
+                context.SaveChanges();
+            }
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult signin()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult signin(Users user)
+        {
+            using (var context = new InstagramCloneContext())
+            {
+                context.Users.Add(user);
+                context.SaveChanges();
+            }
             return View();
         }
     }
